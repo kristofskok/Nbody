@@ -43,7 +43,7 @@ def rKN(x, fx, n, hs):
     for i in range(n):
         x[i] = x[i] + (k1[i] + 2*(k2[i] + k3[i]) + k4[i])/6
     return x
-#%%
+#%%=======================================================
 def brezveze(x):
     return 1
 def dvx(x, y):
